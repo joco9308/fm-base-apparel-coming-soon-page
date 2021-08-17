@@ -26,10 +26,7 @@ html {
 
 body {
     background-image: var(--gradient);
-}
-
-main {
-
+    min-height: 100vh;
 }
 
 .logo {
@@ -62,7 +59,7 @@ h1 {
     letter-spacing: 10px;
 }
 
-h1 > .header-alt {
+h1.header-alt {
     font-weight: 300;
     color: var(--desaturated-red);
 }
@@ -100,6 +97,7 @@ h1 > .header-alt {
 .form-group button {
     position: absolute;
     right: 0;
+    top: 0;
     height: 48px;
     padding: 0 27px;
     border: 0;
